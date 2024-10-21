@@ -1,6 +1,3 @@
-Got it! Here's a refined version of the `README.md` tailored for your GitHub repository at [BAntu10/Xray-Advanced-Diagnosi](https://github.com/BAntu10/Xray-Advanced-Diagnosi):
-
----
 
 # X-Ray Advanced Diagnosis AI
 
@@ -23,7 +20,7 @@ This AI is a game-changer for healthcare professionals, offering reliable suppor
 ### Prerequisites
 
 - **Python 3.10+**
-- **TensorFlow or PyTorch** (depending on your environment)
+- **TensorFlow and Keras**
 - **OpenCV**
 - **NumPy**
 - **Matplotlib**
@@ -32,25 +29,21 @@ This AI is a game-changer for healthcare professionals, offering reliable suppor
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/BAntu10/Xray-Advanced-Diagnosi.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/BAntu10/Xray-Advanced-Diagnosis.git
    ```
 
-3. (Optional) Create and activate a virtual environment:
+2. (Optional) Create and activate a virtual environment:
    ```bash
    python -m venv env
    source env/bin/activate  # For Windows: `env\Scripts\activate`
    ```
 
-4. Run the diagnostic tool:
+3. Run the diagnostic tool:
   Use port on html file
 
 ## Usage
 
-To analyze an X-ray image and receive both diagnostic and location data, simply run the script and provide the path to the X-ray image file.
+To analyze an X-ray image and receive both diagnostic and location data, simply run the script and follow the instructions on the index.html file
 
 ]
 
@@ -63,9 +56,6 @@ To analyze an X-ray image and receive both diagnostic and location data, simply 
 
 ### Example Output:
 
-- **Predicted Condition**: Lung Cancer
-- **Location**: Upper right lung region
-- **Confidence**: 97%
 - **Visual Output**: The model outputs an annotated version of the X-ray, highlighting the affected area.
 
 ## Model Architecture
